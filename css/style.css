@@ -1,0 +1,192 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+
+header{
+        width: 100%;
+        box-shadow: 0px 0px 8px #104094;
+        margin-bottom: 5px;;
+    }
+    .navbar-brand img{
+        width: 100px;
+        height:90px;
+    }
+
+
+figure{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 120px;
+    height: 100%;
+}
+
+
+
+/* fin header */
+
+
+
+
+
+#fotoindex{
+    width: 100%;
+    height: 350px; 
+    object-fit: cover;
+
+}
+
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-solid {
+    padding: 30px 10px;
+    border-radius: 60px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+    font-size: 40px;
+
+    
+    
+}
+.fa-graduation-cap{
+    background-color: #ffa834;
+    
+
+}
+
+.fa-face-smile{
+    background-color: #fa5b50;
+
+}
+
+.fa-spa{
+    background-color: #72bb53;
+    
+}
+
+
+
+.categorias{
+    display: flex;
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    padding: 5%;   
+    
+}
+.categorias p{
+    margin: 5%;
+}
+
+.novedades{
+    display: flex;
+    padding: 80px;
+    margin: 10px;
+    background-color: #89C9E7;
+    border:solid 2px black;
+
+}
+.novedades h2{
+    font-size: 40px;
+    margin: 15px;
+}
+
+#izquierda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+}
+
+.clases{
+    display: flex;
+    
+}
+
+.clasesvideos{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    
+    
+}
+footer{
+    background-color: #e6e6e6;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    padding: 45px;
+    width: 100%;
+}
+
+.fa-brands{
+    font-size: 40px;
+}
+.redes{
+    width: 50%;
+    height: 75%;
+    display: flex;
+    
+}
+
+
+.sesioncard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: solid 20px white;
+    margin: 40px;
+    padding: 50px;
+}
+.card{
+    border: solid 2px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn {
+    color: white;
+    background-color: #104094;
+    border: solid 2px black;
+}
+.btn:hover{
+    color: black;
+    background-color: beige;
+    border-color: black;
+}
+.ratio{
+    
+    box-shadow: 7px 7px #104094;
+}
+
+.divisor-clases{
+    
+    border: solid 2px black;
+    
+}
