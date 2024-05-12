@@ -1,0 +1,14 @@
+.iconoText{
+    display: flex;
+    
+}
+
+.form-container{
+    border-right: 2px solid #000;
+}
+
+@media  (max-width:768px){
+    .form-container{
+        border: none;
+    }
+}

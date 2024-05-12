@@ -1,0 +1,29 @@
+.sesioncard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+    border: solid 20px white;
+    margin: 40px;
+    padding: 50px;
+}
+
+.cardInicio {
+    border: solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+}
+
+.btn {
+    color: white;
+    background-color: #104094;
+    border: solid 2px black;
+
+    &:hover {
+    color: black;
+    background-color: beige;
+    border-color: black;
+    }
+}
