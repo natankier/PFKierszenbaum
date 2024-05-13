@@ -1,17 +1,16 @@
-#fotoclase {
+.fotoclase {
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
+
 .iconPrincipios {
+    @include flexbox(center, center);
     padding: 30px 10px;
     border-radius: 60px;
     height: 100px;
     width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     font-size: 40px;
 
@@ -27,10 +26,8 @@
     }
     }
 
-.principios{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.card{
+    @include flexbox(center, center);
     
 }
 
@@ -49,11 +46,7 @@ h2 {
 
 }
 .carousel-item{
-    h5 {
-        color: #000;
-        font-weight: bold;
-    }
-    p{
+    h5, p {
         color: #000;
         font-weight: bold;
     }
@@ -65,9 +58,8 @@ h2 {
     margin: 40px;
 }
 
-@media (max-width:1024px){
-    .novedades{
-        flex-direction: column;
+@media (max-width: 768px) {
+    .fotoclase{
+        height: 250px;
     }
 }
-
