@@ -1,6 +1,6 @@
 .fotoclase {
     width: 100%;
-    height: 250px;
+    height: 350px;
     object-fit: cover;
 }
 
@@ -58,9 +58,3 @@ h2 {
     margin: 40px;
 }
 
-@media (max-width: 768px) {
-    .fotoclase{
-        height: 150px;
-    
-    }
-}
