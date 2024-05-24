@@ -4,7 +4,9 @@
     object-fit: cover;
 }
 
-
+.row{
+    padding: 10px 0;
+}
 .iconPrincipios {
     @include flexbox(center, center);
     padding: 30px 10px;
@@ -45,9 +47,12 @@ h2 {
 
 
 }
-.carousel-item{
-    h5, p {
-        color: #000;
+.carouselInicio{
+img{
+    filter: brightness(50%);
+}
+h5, p {
+        color: #d4d2d2;
         font-weight: bold;
     }
 }

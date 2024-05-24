@@ -10,21 +10,21 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70px;
-  padding: 10%;
   width: 100%;
 }
 
 .fa-brands {
   font-size: 40px;
+  cursor: pointer;
+  transition: 4s;
 }
 
 .redes {
   width: 50%;
-  height: 75%;
   display: flex;
   justify-content: center;
   gap: 15%;
+  padding: 20px;
 }
 
 header {
@@ -42,6 +42,10 @@ header {
   width: 100%;
   height: 350px;
   object-fit: cover;
+}
+
+.row {
+  padding: 10px 0;
 }
 
 .iconPrincipios {
@@ -82,8 +86,11 @@ header {
   margin: 15px;
 }
 
-.carousel-item h5, .carousel-item p {
-  color: #000;
+.carouselInicio img {
+  filter: brightness(50%);
+}
+.carouselInicio h5, .carouselInicio p {
+  color: #d4d2d2;
   font-weight: bold;
 }
 
@@ -103,12 +110,24 @@ header {
   box-shadow: 2px 2px 2px 2px #415e91;
 }
 
+.contactanos {
+  min-height: 100vh;
+  max-height: 100%;
+  display: grid;
+  place-content: center;
+}
+
 .iconoText {
   display: flex;
 }
 
 .form-container {
   border-right: 2px solid #000;
+  display: grid;
+  gap: 10px;
+}
+.form-container textarea {
+  resize: none;
 }
 
 @media (max-width: 768px) {

@@ -1,3 +1,10 @@
+
+.contactanos{
+    min-height: 100vh;
+    max-height: 100%;
+    display: grid;
+    place-content: center;
+}
 .iconoText{
     display: flex;
     
@@ -5,7 +12,14 @@
 
 .form-container{
     border-right: 2px solid #000;
+    display: grid;
+    gap: 10px;
+    
+textarea{
+    resize: none;
 }
+}
+
 
 @media  (max-width:768px){
     .form-container{
